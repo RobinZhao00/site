@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    height: 80px;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+}
+
+.header .company-name {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.header .company-name .logo {
+    margin: 0 20px;
+    background-image: url(./images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.header ul, .header ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+}
+
+.header ul li {
+    margin-left: 20px;
+}
+
+.header ul .active {
+    color: green;
+}
+
+.main {
+    display: flex;
+    height: 530px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.swiper-container {
+    width: 600px;
+    height: 530px;
+}
+
+.main .swiper-wrapper {
+
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.swiper-slide:nth-child(1) {
+    background-image: url(images/WechatIMG380.png);
+}
+
+.swiper-slide:nth-child(2) {
+    background-image: url(images/WechatIMG381.png);
+}
+
+.swiper-slide:nth-child(3) {
+    background-image: url(images/WechatIMG382.png);
+}
+
+.swiper-slide:nth-child(4) {
+    background-image: url(images/WechatIMG383.png);
+}
+
+.footer {
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
