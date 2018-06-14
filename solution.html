@@ -24,15 +24,11 @@
   <div class="main">
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide silde-1"></div>
-        <div class="swiper-slide slide-2"></div>
-        <div class="swiper-slide slide-3"></div>
-        <div class="swiper-slide slide-4"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
       </div>
-      <!--<div class="swiper-pagination"></div>-->
-      <!--<div class="swiper-button-prev"></div>-->
-      <!--<div class="swiper-button-next"></div>-->
-      <!--<div class="swiper-scrollbar"></div>-->
     </div>
     <div class="solution-container">
       <div class="title"></div>
@@ -51,7 +47,8 @@
         </li>
         <li class="solution-list">
           <div class="sub-title">动植物养殖业安全监测</div>
-          <div class="details">针对动物养殖过程中存在的动物个体识别、疾病检测、情绪检测等需求提供了一套监测网络系统。（1）通过基于深度学习的图像技术对动物身体的关键部位进行学习，训练身份识别模型。（2）通过机器学习技术检测动物表征特性，与疾病库做匹配，初步判断疾病类型。（3）通过红外传感器等物理传感器和
+          <div class="details">
+            针对动物养殖过程中存在的动物个体识别、疾病检测、情绪检测等需求提供了一套监测网络系统。（1）通过基于深度学习的图像技术对动物身体的关键部位进行学习，训练身份识别模型。（2）通过机器学习技术检测动物表征特性，与疾病库做匹配，初步判断疾病类型。（3）通过红外传感器等物理传感器和
             等生物传感器检测动物的生理特征，结合（2）和（3）两种方案对动物疾病做初步诊断，并预警确定疑似患病个体。（4）对于异常个体，可通过摄像头实时跟踪监控。（5）收集数据上报云端服务器，可视化展现各个动物的生理特征，对患病个体进行预警。提供了终端设备数据采集、生物特征数据及活动状态的可视化展示、身份识别和疾病检测算法、实时监测和预警的完整解决方案。
           </div>
         </li>
@@ -64,7 +61,6 @@
   <script>
     var mySwiper = new Swiper('.swiper-container', {
       autoplay: true,//可选选项，自动滑动
-      loop: true,
     })
   </script>
 </body>

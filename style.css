@@ -67,8 +67,9 @@ ul, li {
 }
 
 .swiper-container {
-    width: 600px;
-    height: 530px;
+    margin-top: 40px;
+    width: 1000px;
+    height: 500px;
 }
 
 .main .swiper-wrapper {
@@ -79,7 +80,7 @@ ul, li {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: auto 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
