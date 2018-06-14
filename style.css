@@ -195,6 +195,77 @@ ul, li {
     word-break: break-all;
 }
 
+/*
+case
+*/
+
+.main .case-container {
+    margin: 40px 200px 0;
+    color: #fff;
+}
+
+.main .case-container .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main .case-container .case-list {
+    margin-top: 40px;
+}
+
+.main .case-container .case-list .case-list-item {
+    margin-top: 20px;
+}
+
+.main .case-container .case-list .case-list-item .sub-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main .case-container .case-list .case-list-item .details {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+/*
+联系我们
+*/
+.contact-container {
+    margin: 40px 200px 0;
+    color: #fff;
+}
+
+.contact-container .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contact-container .desp {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.contact-container .contact .title {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-list {
+    margin-top: 20px;
+}
+
+.contact-list-item {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
 .footer {
     height: 320px;
     background-color: rgba(0, 0, 0, 0.6);
