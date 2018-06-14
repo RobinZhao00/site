@@ -3,6 +3,17 @@ html, body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -45,8 +56,8 @@ html, body {
     margin-left: 20px;
 }
 
-.header ul .active {
-    color: green;
+.header ul .active a {
+    color: green !important;
 }
 
 .main {
@@ -153,7 +164,39 @@ html, body {
     margin-left: 0;
 }
 
+/*
+解决方案
+*/
+.main .solution-container {
+    margin: 40px 200px 0;
+    color: #fff;
+}
+
+.main .solution-container .solution-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.main .solution-container .solution-list:first-child {
+    margin-top: 0;
+}
+
+.main .solution-container .solution-list .sub-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main .solution-container .solution-list .details {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-left: 40px;
+    word-break: break-all;
+}
+
 .footer {
     height: 320px;
     background-color: rgba(0, 0, 0, 0.6);
 }
+

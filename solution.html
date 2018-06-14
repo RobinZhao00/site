@@ -3,34 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <title>解决方案</title>
+  <link rel="stylesheet" type="text/css" href="swiper-4.3.2.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="header"></div>
+  <div class="header">
+
+    <div class="company-name">
+      <div class="logo"></div>
+      南通虎啸君玥信息科技有限公司
+    </div>
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="product.html">产品中心</a></li>
+      <li class="active"><a href="solution.html">解决方案</a></li>
+      <li><a href="case.html">典型案例</a></li>
+      <li><a href="contact.html">联系我们</a></li>
+    </ul>
+  </div>
   <div class="main">
+    <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide swiper-silde-1"></div>
-        <div class="swiper-slide swiper-silde-2"></div>
-        <div class="swiper-slide swiper-silde-3"></div>
-        <div class="swiper-slide swiper-silde-4"></div>
+        <div class="swiper-slide silde-1"></div>
+        <div class="swiper-slide slide-2"></div>
+        <div class="swiper-slide slide-3"></div>
+        <div class="swiper-slide slide-4"></div>
+      </div>
+      <!--<div class="swiper-pagination"></div>-->
+      <!--<div class="swiper-button-prev"></div>-->
+      <!--<div class="swiper-button-next"></div>-->
+      <!--<div class="swiper-scrollbar"></div>-->
     </div>
     <div class="solution-container">
       <div class="title"></div>
-      <ul>
-        <li>
+      <ul class="solutions">
+        <li class="solution-list">
           <div class="sub-title">工厂生产监测解决方案</div>
-          <div class="details">针对化工厂在生产过程中可能发生有毒气体泄漏带来的生产安全问题，提供化工厂区有毒气体泄漏在线监测系统，该系统通过传感器连接iot设备，实时上传传感器数据，通过在线监测为主、人工检测为辅的手段实现了对噪音监测、粉尘监测等物理危害及二氧化硫、硫化氢、一氧化碳、氮氧化物、氯气等有毒化学气体的监测。提供了从采集端、数据传输设备到最终云端数据可视化大屏及分析预警系统的完整解决方案。</div>
+          <div class="details">
+            针对化工厂在生产过程中可能发生有毒气体泄漏带来的生产安全问题，提供化工厂区有毒气体泄漏在线监测系统，该系统通过传感器连接iot设备，实时上传传感器数据，通过在线监测为主、人工检测为辅的手段实现了对噪音监测、粉尘监测等物理危害及二氧化硫、硫化氢、一氧化碳、氮氧化物、氯气等有毒化学气体的监测。提供了从采集端、数据传输设备到最终云端数据可视化大屏及分析预警系统的完整解决方案。
+          </div>
         </li>
-        <li>
+        <li class="solution-list">
           <div class="sub-title"> 城市生活环境监测</div>
-          <div class="details">针对公共场所、生活区域、工厂周边设计的气体及水体监测解决方案，用于实现有毒气体预警、企业排污排废监控、污染源分析等场景。监测系统基于带iot的传感器终端和移动数据传输平台，监测空气中的二氧化硫、可吸入颗粒物、碳氧化物、氮氧化物、汞、铅，水体中的总汞、总镉、总铬、总砷、总铅等污染物的含量。提供了从采集、数据上传、数据可视化到环境AI算法解决方案。</div>
+          <div class="details">
+            针对公共场所、生活区域、工厂周边设计的气体及水体监测解决方案，用于实现有毒气体预警、企业排污排废监控、污染源分析等场景。监测系统基于带iot的传感器终端和移动数据传输平台，监测空气中的二氧化硫、可吸入颗粒物、碳氧化物、氮氧化物、汞、铅，水体中的总汞、总镉、总铬、总砷、总铅等污染物的含量。提供了从采集、数据上传、数据可视化到环境AI算法解决方案。
+          </div>
         </li>
-        <li>
+        <li class="solution-list">
           <div class="sub-title">动植物养殖业安全监测</div>
-          <div class="details"></div>
-        </li>
-        <li>
-          <div class="sub-title">工厂生产监测解决方案</div>
-          <div class="details">针对动物养殖过程中存在的动物个体识别、疾病检测、情绪检测等需求提供了一套监测网络系统。（1）通过基于深度学习的图像技术对动物身体的关键部位进行学习，训练身份识别模型。（2）通过机器学习技术检测动物表征特性，与疾病库做匹配，初步判断疾病类型。（3）通过红外传感器等物理传感器和  等生物传感器检测动物的生理特征，结合（2）和（3）两种方案对动物疾病做初步诊断，并预警确定疑似患病个体。（4）对于异常个体，可通过摄像头实时跟踪监控。（5）收集数据上报云端服务器，可视化展现各个动物的生理特征，对患病个体进行预警。提供了终端设备数据采集、生物特征数据及活动状态的可视化展示、身份识别和疾病检测算法、实时监测和预警的完整解决方案。</div>
+          <div class="details">针对动物养殖过程中存在的动物个体识别、疾病检测、情绪检测等需求提供了一套监测网络系统。（1）通过基于深度学习的图像技术对动物身体的关键部位进行学习，训练身份识别模型。（2）通过机器学习技术检测动物表征特性，与疾病库做匹配，初步判断疾病类型。（3）通过红外传感器等物理传感器和
+            等生物传感器检测动物的生理特征，结合（2）和（3）两种方案对动物疾病做初步诊断，并预警确定疑似患病个体。（4）对于异常个体，可通过摄像头实时跟踪监控。（5）收集数据上报云端服务器，可视化展现各个动物的生理特征，对患病个体进行预警。提供了终端设备数据采集、生物特征数据及活动状态的可视化展示、身份识别和疾病检测算法、实时监测和预警的完整解决方案。
+          </div>
         </li>
       </ul>
     </div>
@@ -38,6 +61,11 @@
   <div class="footer"></div>
   <script src="jquery.js"></script>
   <script src="swiper-4.3.2.min.js"></script>
-  <script src="index.js"></script>
+  <script>
+    var mySwiper = new Swiper('.swiper-container', {
+      autoplay: true,//可选选项，自动滑动
+      loop: true,
+    })
+  </script>
 </body>
 </html>

@@ -3,15 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <title>联系我们</title>
+  <link rel="stylesheet" type="text/css" href="swiper-4.3.2.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="header"></div>
+  <div class="header">
+
+    <div class="company-name">
+      <div class="logo"></div>
+      南通虎啸君玥信息科技有限公司
+    </div>
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="product.html">产品中心</a></li>
+      <li><a href="solution.html">解决方案</a></li>
+      <li><a href="case.html">典型案例</a></li>
+      <li class="active"><a href="contact.html">联系我们</a></li>
+    </ul>
+  </div>
   <div class="main">
+    <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide swiper-silde-1"></div>
-        <div class="swiper-slide swiper-silde-2"></div>
-        <div class="swiper-slide swiper-silde-3"></div>
-        <div class="swiper-slide swiper-silde-4"></div>
+        <div class="swiper-slide silde-1"></div>
+        <div class="swiper-slide slide-2"></div>
+        <div class="swiper-slide slide-3"></div>
+        <div class="swiper-slide slide-4"></div>
+      </div>
+      <!--<div class="swiper-pagination"></div>-->
+      <!--<div class="swiper-button-prev"></div>-->
+      <!--<div class="swiper-button-next"></div>-->
+      <!--<div class="swiper-scrollbar"></div>-->
     </div>
     <div class="contact-container">
       <div class="about">
@@ -21,7 +42,7 @@
         </div>
       </div>
       <div class="contact">
-       <div class="title">联系我们</div>
+        <div class="title">联系我们</div>
         <ul>
           <li>公司名：南通虎啸君玥信息科技有限公司</li>
           <li>地址：南通市苏通科技产业园区江成路1088号江成研发园3541室</li>
@@ -33,6 +54,11 @@
   <div class="footer"></div>
   <script src="jquery.js"></script>
   <script src="swiper-4.3.2.min.js"></script>
-  <script src="index.js"></script>
+  <script>
+    var mySwiper = new Swiper('.swiper-container', {
+      autoplay: true,//可选选项，自动滑动
+      loop: true,
+    })
+  </script>
 </body>
 </html>
