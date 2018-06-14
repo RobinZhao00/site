@@ -17,7 +17,7 @@ ul, li {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 80px;
+    padding: 0 120px 0 80px;
     height: 80px;
     background-color: black;
     color: #fff;
